@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { MapPin, Phone, Mail, Shield, Award, Leaf, Star, CheckCircle, MessageCircle } from 'lucide-react';
+import { MapPin, Phone, Mail, Shield, Award, Leaf, Star, CheckCircle } from 'lucide-react';
 import SectionHeading from './ui/SectionHeading';
 import MagneticButton from './ui/MagneticButton';
 
@@ -66,17 +66,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full bg-[#25D366]/10 flex items-center justify-center flex-shrink-0">
-                  <MessageCircle className="w-5 h-5 text-[#25D366]" />
-                </div>
-                <div>
-                  <h3 className="font-sans font-medium text-sm text-forest">WhatsApp</h3>
-                  <a href="https://wa.me/4930912022 51" target="_blank" rel="noopener noreferrer" className="text-forest/70 font-sans text-sm hover:text-[#25D366] transition-colors">
-                    Nachricht senden
-                  </a>
-                </div>
-              </div>
             </div>
           </motion.div>
 
